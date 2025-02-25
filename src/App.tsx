@@ -7,18 +7,15 @@ function App() {
 
   return (
     <>
-      <div className="card">
-        <Button onClick={() => setCount((count) => count + 1)}>
-          {" "}
-          count is {count}
-        </Button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+      <div className="">
+        <div style={{ display: "flex" }}>
+          <h1>Button: </h1>
+          <Button onClick={() => setCount((count) => count + 1)}>
+            {" "}
+            count is {count}
+          </Button>
+        </div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   );
 }
